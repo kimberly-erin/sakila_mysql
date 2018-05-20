@@ -118,7 +118,7 @@ AND language_id = (
 SELECT language_id FROM language 
 WHERE name="English");
 
--- 7b  TO FIX
+-- 7b
 SELECT * FROM actor;
 SELECT 	first_name,last_name FROM actor
 WHERE actor_id IN (
